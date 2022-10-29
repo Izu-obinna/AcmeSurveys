@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.menu-icon {
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: none;
+}
+
+.side-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* MEDIA QUERY FOR SIDE MENU */
+
+@media only screen and (max-width:800px) {
+    nav ul {
+        position: absolute;
+        top: 9.5%;
+        left: 0;
+        background: #333;
+        opacity: 1;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        z-index: 1;
+       }  
+    
+       nav ul li{
+       display: block;
+       margin-left: 15px;
+       margin-top: 0px;
+       margin-bottom: 0px;
+       }  
+    
+       nav ul li a {
+        background-color: #333;
+        border: none;
+        color: #fff;
+       }
+
+       nav ul li a:hover {
+        background-color: #333;
+        border: none;
+       }
+
+       .menu-icon {
+        display: block;
+        cursor: pointer ;
+       }
+}
+   
+
+    /* MEDIA QUERY FOR 320 SCREEN TO 600 SCREEN */
+    
+    @media only screen and (min-width: 310px) and (max-width: 600px) {
+        /* HOME PAGE */
+        header {
+            background-color: #fff;
+            color: black;
+            height: 60px;
+        }
+    
+        header img {
+            height: 2.3rem;
+            margin-top: .5rem;
+            -webkit-filter: none; 
+        }
+        
+        header .flex {
+            padding-top: .2rem;
+            justify-content: left;
+        }
+        
+        header h1{
+            font-size: 28px;
+            padding-left: 0.2rem;
+        }
+         
+        header p {
+            font-size: 13px;
+            margin-top: -0.95rem;
+            padding-left: .2rem;
+        }
+    
+        #showcase {
+            height: 220px;
+        }
+    
+        #showcase p{
+            top: 9.5rem;
+            left: 1rem;
+            font-size: 20px;
+        }
+        
+        #showcase h1 { 
+            top: 11rem;
+            left: 1rem;
+            font-size: 40px;
+        }
+        
+        #showcase .second-h1 {
+            top: 13rem;
+            left: 1rem;
+            font-size: 40px;
+        }
+    
+        .home-page-info {
+            font-size: 15px;
+            padding-top: 1rem;
+        }
+        
+        .home-page-info h1 {
+            padding: 1rem 0;
+            font-size: 20px;
+        }
+        
+        .home-page-info span {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    
+        .home-page-info p {
+            font-size: 14px;
+        }
+    
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 3rem 0 1rem 0;
+        }
+    
+        footer p {
+            padding: 1rem 0;
+            font-size: 15px;
+        }
+    
+        footer h1 {
+            font-size: 20px;
+        }
+    
+            /* ABOUT PAGE */
+        .about-page-info {
+            font-size: 14px;
+            padding-top: 2rem;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    
+        .about-page-info img {
+            margin-top: 10px;
+            width: 90%;
+            align-content: center;
+            border: #333;
+            border-radius: 5px;
+        }
+    
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: space-between;
+        }
+    
+        .image p {
+            font-size: 10px;
+            padding-left: 0rem;
+            margin-bottom: 1rem;
+        }
+    
+        .about-page-info p {
+            margin-left: 0rem;
+        }
+    
+        /* SERVICES PAGE */
+    #services-navbar {
+        height: 50px;
+        width: 100%;  
+    } 
+    
+    #services-navbar h1 {
+        font-size: 20px;
+        top: .5rem;
+        left: 1rem;     
+    }
+    
+    .grid-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .services-showcase {
+        padding: 2rem 0 3rem 0;
+    }
+    
+    .services-showcase img {
+        width: 90%;
+        border: #333;
+        border-radius: 5px;
+    }
+    
+    .services-showcase h3 {
+        font-size: 15px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .services-img3 img{
+        height: 150px;
+    }
+
+   /* RESOURCES PAGE */
+    .about-page-info ul li {
+        margin-left: 0;
+    }
+
+    .about-page-info ol li {
+        margin-left: 0;
+    }
+    
+    /* ESTIMATE PAGE */
+    .estimate-navbar {
+        height: 50px; 
+    }
+    
+    .e-p1 {
+        font-size: 20px;
+        font-weight: bold;
+        padding: .5rem 0 .5rem 0;
+    }
+    
+    .e-p2 {
+        padding-top: 0rem;
+        font-size: 14px;
+    }
+    
+    .e-p3 {
+        font-size: 14px;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+    
+    /* ESTIMATE FORM */
+    .form label {
+        font-size: 14px;
+    }
+    
+    .form input {
+        font-size: 14px;
+        padding: 5px 0 5px 0;
+    }
+    
+    #firstName, #lastName {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    #firstName {
+        margin-bottom: 5px;
+    }
+    
+    #phoneNumber {
+        width: 50%;
+    }
+    
+    .form-p {
+        font-size: 14px;
+        padding: 1.5rem 0 0 0;
+        margin-bottom: 1rem;  
+    }
+    
+    #address {
+        font-size: 14px; 
+        width: 100%;
+    }
+    .plan-no {
+        width: 100%;
+    }
+    
+    #address .d-child, #address-2 .d-child2, #city .d-child3,
+    #state .d-child4, #plan-no .d-child5 {
+        font-size: 10px;
+    }
+    
+    #address-2 {
+        margin-top: .5rem;
+    }
+    
+    .location{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #city {
+        margin-top: .5rem;
+        width: 95%
+    }
+    
+    #state {
+        width: 70%;
+        margin-top: .5rem;
+    }
+    
+    #plan-no {
+        margin-top: 1.5rem;
+    }
+    
+    .form-p2 {
+        font-size: 14px;
+        padding: 1.5rem 0 0rem 0;
+        margin-bottom: 1rem;
+    }
+    
+    .form-msg {
+        font-size: 16px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .form-msg textarea {
+        font-size: 14px;
+        width: 100%;
+        height: 80px;
+    }
+    
+    .submit-btn {
+        padding-bottom: 1.2rem;
+    }
+    
+    .submit-btn input{
+        height: 2rem;
+        width: 4rem;
+        font-size: 12px;
+    }
+    
+     /* CONTACT PAGE */
+     .contact-navbar {
+        height: 50px; 
+    }
+
+    .contact-info {
+        text-align: center;
+        margin: 1rem 0 1rem 0;
+    }
+    
+    .contact-info h1{
+        font-size: 20px;
+    }
+    
+    .c-p2 {
+        padding-top: 20px;
+    }
+    
+    .contact-info p{
+        font-size: 14px;
+    }
+    
+    }
+
+      /* MEDIA QUERY FOR 601 SCREEN TO 800 SCREEN */
+    
+      @media only screen and (min-width: 601px) and (max-width: 800px) {
+
+        #showcase {
+            height: 600px;
+        }
+    
+        #showcase p{
+            top: 23rem;
+            left: 4rem;
+            font-size: 40px;
+        }
+        
+        #showcase h1 { 
+            top: 24rem;
+            left: 4rem;
+            font-size: 100px;
+        }
+        
+        #showcase .second-h1 {
+            top: 29rem;
+            left: 4rem;
+            font-size: 100px;
+        }
+      
+        .about-page-info {
+            font-size: 14px;
+            padding-top: 2rem;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: space-between;
+        }
+    
+        .about-page-info img {
+            margin-top: 8px;
+            width: 70%;
+        }
+
+        .image p {
+            font-size: 11px;
+            padding-left: 4rem;
+        }
+
+        #services-navbar {
+            height: 80px;
+            width: 100%;  
+        } 
+        
+        #services-navbar h1 {
+            font-size: 26px;
+            top: 2rem;
+            left: 8rem;     
+        }
+        
+        .grid-2 {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        
+        .services-showcase {
+            padding: 2rem 0 1rem 0;
+        }
+        
+        .services-showcase img {
+            width: 100%;
+            /* margin-right: 1rem; */
+        }
+        
+        .services-showcase h3 {
+            font-size: 16px;
+            margin: -10px 0 0 0;
+        }
+        
+        .services-img3 img{
+            height: 80%;
+        }
+
+        .estimate-navbar {
+            height: 80px; 
+        }
+
+      }
+
+

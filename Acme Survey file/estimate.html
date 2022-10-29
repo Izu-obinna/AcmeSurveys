@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="./Css/media query.css">
+    <title>Acme Surveys</title>
+</head>
+<body>
+
+<!-- The Header -->
+<header>
+  <div class="container flex">
+    <img src="./img/LandSurveyorlogo.jpg" alt="">
+
+    <div>
+    <h1><span>ACME</span>SURVEYS</h1>
+    <p>Surveying & Mapping,Co</p>
+    </div>
+
+    <div class="side-menu">
+    <img src="./img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div> 
+
+  </div>
+</header>
+
+
+  <!-- Navbar -->
+  <section class="estimate-navbar">
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="resources.html">RESOURCES</a></li>
+          <li class="current"><a href="estimate.html">ESTIMATE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+  </section>
+
+
+   <section class="estimate-page-form">
+    <div class="container">
+    <p class="e-p1">Free Estimate</p>
+    <br>
+    <p class="e-p2">Please provide your contact information and tell us about your project.</p>
+    <br> 
+    <p class="e-p3">Contact Information</p>
+    </div>
+  
+
+    <!-- Form-group -->
+      <form action=""></form>
+      <div class="form container">
+         <label for="firstName">Name *</label>
+         <br>
+         
+         <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+      
+         <input type="text" name="lastName"  id="lastName" placeholder="Last Name" required>
+        <br>
+        <br>
+
+         <label for="email">Email Address *</label>
+         <input type="email" name="Email" id="email" placeholder="Enter email" required>  
+        <br>
+        <br>
+        <div class="phonenumber">
+         <label for="phoneNumber">Phone Number</label>
+         <br> 
+         <input type="number" name="PhoneNumber" id="phoneNumber" placeholder="XXX-XXXX-XXX" required>
+       
+       <p class="form-p">Project Location</p>
+
+        <div id="address">
+        <label for="Address">Address</label>
+        <input type="text" name="address" id="address"  required>
+        <label for="Address" class="d-child">Address 1</label>
+        </div>
+
+        <div id="address-2">
+        <input type="text" name="address" id="address" >
+        <label for="address" class="d-child2">Address 2</label>
+        </div>
+
+        <div class="location">
+        <div id="city">
+        <input type="text" name="city" id="city" >
+        <br>
+        <label for="city" class="d-child3">City</label>
+        </div> 
+
+        <div id="state">
+        <input type="text" name="state" id="state" >
+        <br>
+        <label for="state" class="d-child4">State</label>
+        </div>
+        </div>
+       
+        <div id="plan-no">
+        <label for="plan-no">Asserssor's Parcel/Plan Number</label>
+        <br>
+        <label for="plan-no" class="d-child5">(if known)</label>
+        <input type="number" name="plan-no" class="plan-no" placeholder="xxx-xxxx-xxxx">
+        </div>
+
+        <p class="form-p2">Purpose of the Project</p>
+
+        <div class="checkbox">
+        <input type="checkbox" name="" id=""> New Home Construction
+        <br>
+        <input type="checkbox" name="" id=""> Addition to the Existing Home
+        <br>
+        <input type="checkbox" name="" id=""> Fence Construction/Replacement
+        <br>
+        <input type="checkbox" name="" id=""> To obtain a Survey plan for Land-in-dispute
+        <br>
+        <input type="checkbox" name="" id=""> Estate Construction
+        <br>
+        <input type="checkbox" name="" id=""> Other onsite improvements
+        <br>
+        <input type="checkbox" name="" id=""> Property Line Visualization
+        </div>
+ 
+       <div class="form-msg">
+        <label>Message to Land Surveyor</label>
+        <br>
+        <textarea name="message"></textarea>
+      </div>
+
+      <div class="submit-btn">
+        <input type="submit" name="SUBMIT" value="SUBMIT">
+      </div>  
+
+    </div>
+  </form>
+  </section>
+  
+
+
+  
+<!-- Footer -->
+<footer>
+  <h1>234-7061923294</h1>
+  <p><a>acmesurveys01@gmail.com</a></p>
+  <p>Areas we serve: Anambra state, Enugu state, Ebonyi state, Rivers State.</p>
+</footer>
+
+
+  <!--------- JS FOR HAMBUGER MENU ------>
+  <script src="main.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,427 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif; 
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;  
+}
+
+.flex {
+    display: flex;
+    justify-content: center; 
+     height: 100%;
+}
+
+/* HEADER */
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(36, 35, 35);
+    color: #efecec;
+    height: 120px;
+}
+
+.header-img, .header-text {
+    display: flex;
+    justify-content: center; 
+     height: 100%;
+}
+
+header img {
+    height: 5rem;
+    -webkit-filter: invert(85%); 
+}
+
+header .flex {
+    padding-top: 1rem;
+    justify-content: left;
+}
+
+header h1{
+    font-size: 48px;
+    padding-left: 0.2rem;
+}
+
+header span {
+    color: #ec8027;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: -1.2rem;
+    padding-left: .2rem;
+}
+
+/* NAVBAR */
+nav {
+    float: right;
+    margin-right: 12rem;
+    margin-top: 2rem;
+}
+
+nav li {
+	display: inline-block;
+	padding: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+}
+
+nav a:hover {
+    border: 1px solid #e9aa77;
+    background-color:#e9aa77;
+    cursor: pointer;
+}
+
+nav a {
+    color:  #efecec;
+    text-decoration: none;
+    border: 1px solid #ec8027;
+    padding: 10px;
+    background: #ec8027;
+}
+
+/* SHOWCASE FOR HOME-PAGE */
+#showcase {
+    background: url('../img/Blandsurveyor3.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    height: 800px;
+    width: 100%;  
+    font-family: Roboto, sans-serif;
+}
+
+#showcase p{
+    position: absolute;
+    top: 27rem;
+    left: 7.5rem;
+    font-size: 52px;
+    font-weight: 900;
+    color: #fff;
+    padding-bottom: -2rem;
+    z-index: 0;
+}
+
+#showcase span {
+    padding-right: 10px;
+    color: rgb(4, 255, 4);
+    z-index: 0;
+}
+
+#showcase h1 { 
+    position: absolute;
+    top: 27rem;
+    left: 7rem;
+    color: #ec8027;
+    font-size: 160px;
+    font-weight: 900;
+    z-index: 0;
+}
+
+#showcase .second-h1 {
+    position: absolute;
+    top: 35rem;
+    left: 7rem;
+    color: #ec8027;
+    font-size: 160px;
+    font-weight: 900;
+    z-index: 0;
+}
+
+/* HOME PAGE INFO */
+.home-page-info {
+    font-size: 15px;
+    padding-top: 3rem;
+    background-color:  #262626;
+    color: #efecec;
+    letter-spacing: 0.1em;
+}
+
+.home-page-info h1 {
+    padding: 1rem 0;
+    font-size: 25px;
+}
+
+.home-page-info span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 3rem 0 1rem 0;
+    background-color:  #262626;
+    color: #efecec;
+}
+
+footer p {
+    padding: 1rem 0;
+    font-size: 18px;
+}
+
+/* ABOUT-PAGE */
+.about-page-info {
+    font-size: 15px;
+    padding-top: 6rem;
+    background-color: #262626;
+    color: #efecec;
+    letter-spacing: 0.1em;
+}
+
+.about-page-info img {
+    margin-top: 6px;
+    width: 400px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.image p {
+    font-size: 12px;
+    padding-left: 4rem;
+}
+
+.about-page-info p {
+    margin-left: -4rem;
+}
+
+/* SERVICES */
+#services-navbar {
+    background: url(../img/Gps.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    position: relative;
+    height: 180px;
+    width: 100%;  
+} 
+
+#services-navbar h1 {
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    top: 4rem;
+    left: 20rem;     
+}
+
+.services-showcase {
+    padding: 2rem 0 3rem 0;
+    background-color: #262626;
+    color: #efecec;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
+
+.services-showcase img {
+    width: 300px;
+}
+
+.services-img3 img{
+    height: 203px;
+}
+
+/* RESOURCES PAGE */
+.about-page-info ul li {
+    margin-left: -2.7rem;
+}
+
+.about-page-info ol li {
+    margin-left: -2.7rem;
+}
+
+/* ESTIMATE PAGE */
+.estimate-navbar {
+    background: url(../img/Surveymapping2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    height: 180px;
+    width: 100%;  
+}
+
+.estimate-page-form {
+    background-color: #262626;
+    color: #efecec;
+}
+
+.e-p1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 2rem 0 2rem 0;
+    border-bottom: 1px solid #ec8027;
+}
+
+.e-p2 {
+    padding-top: 1rem;
+}
+
+.e-p3 {
+    padding-top: 1.5rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid #efecec;
+    margin-bottom: 2rem;
+}
+
+/* ESTIMATE-FORM */
+.form label {
+    font-size: 17px;
+}
+
+.form input {
+    font-size: 17px;
+    padding: 10px 0 10px 0;
+    outline: none;
+}
+
+#firstName, #lastName {
+    display: inline-flex;
+    width: 49.5%;
+}
+
+#email {
+    width: 100%;
+}
+
+#phoneNumber {
+    width: 40%;
+}
+
+.form-p {
+    padding-top: 2.5rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid #efecec;
+    margin-bottom: 2rem;  
+}
+
+#address {
+    font-size: 17px; 
+    width: 100%;
+}
+.plan-no {
+    width: 100%;
+}
+
+#address .d-child,
+#address-2 .d-child2,
+#city .d-child3,
+#state .d-child4,
+#plan-no .d-child5 {
+    font-size: 12px;
+}
+
+#address-2 {
+    margin-top: 1.5rem;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+}
+
+#city {
+    margin-top: 1rem;
+    width: 95%
+}
+
+#state {
+    width: 60%;
+    margin-top: 1rem;
+}
+
+#plan-no {
+    margin-top: 1.5rem;
+}
+
+.form-p2 {
+    font-size: 17px;
+    padding: 1.5rem 0 0.2rem 0;
+    border-bottom: 1px solid #efecec;
+    margin-bottom: 1.5rem;
+}
+
+.checkbox {
+    font-size: 13px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form-msg {
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.form-msg textarea {
+    font-size: 16px;
+    width: 100%;
+    height: 100px;
+    outline: none;
+}
+
+.submit-btn {
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #ec8027;
+   
+}
+
+.submit-btn input{
+    height: 3rem;
+    width: 7rem;
+    font-size: 14px;
+    color:#f06644;
+    background: #262626;
+    border-color: #f06644;   
+}
+
+
+    /* CONTACT PAGE */
+.contact-navbar {
+    background: url(../img/topo-map.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    height: 180px;
+    width: 100%;  
+}
+
+.contact-page-form {
+    background-color: #262626;
+    color: #efecec;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 2.1rem 0 2.1rem 0;
+}
+
+.contact-info h1{
+    font-size: 30px;
+}
+
+.contact-info p{
+    font-size: 20px;
+    color:#c96412;
+}
+
+
