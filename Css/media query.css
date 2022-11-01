@@ -88,7 +88,7 @@
     
         #showcase {
             height: 220px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Roboto, sans-serif;
         }
     
         #showcase p{
@@ -101,14 +101,14 @@
         #showcase h1 { 
             top: 11.5rem;
             left: 1rem;
-            font-size: 32px;
+            font-size: 35px;
             font-weight: 900;
         }
         
         #showcase .second-h1 {
             top: 11.5rem;
-            left: 6.4rem;
-            font-size: 32px;
+            left: 6.8rem;
+            font-size: 35px;
             font-weight: 900;
         }
     
