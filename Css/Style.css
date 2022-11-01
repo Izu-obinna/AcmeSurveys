@@ -386,6 +386,7 @@ footer p {
 }
 
 .submit-btn input{
+    text-align: center;
     height: 3rem;
     width: 7rem;
     font-size: 14px;
