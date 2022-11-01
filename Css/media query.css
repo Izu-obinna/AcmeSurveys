@@ -10,7 +10,7 @@
 .side-menu {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 3%;
 }
 
 /* MEDIA QUERY FOR SIDE MENU */
@@ -37,6 +37,7 @@
     
        nav ul li a {
         background-color: #333;
+        font-weight: 600;
         border: none;
         color: #fff;
        }
@@ -96,15 +97,15 @@
         }
         
         #showcase h1 { 
-            top: 11rem;
+            top: 11.5rem;
             left: 1rem;
-            font-size: 40px;
+            font-size: 25px;
         }
         
         #showcase .second-h1 {
-            top: 13rem;
-            left: 1rem;
-            font-size: 40px;
+            top: 11.5rem;
+            left: 5.8rem;
+            font-size: 25px;
         }
     
         .home-page-info {
@@ -329,7 +330,6 @@
         height: 2rem;
         width: 4rem;
         font-size: 12px;
-        border-radius: 1px;
     }
     
      /* CONTACT PAGE */
