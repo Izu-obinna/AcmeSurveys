@@ -323,13 +323,13 @@
     
     .submit-btn {
         padding-bottom: 1.2rem;
-        border-radius: none;
     }
     
     .submit-btn input{
         height: 2rem;
         width: 4rem;
         font-size: 12px;
+        border-radius: 1px;
     }
     
      /* CONTACT PAGE */
