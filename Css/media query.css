@@ -94,21 +94,21 @@
         #showcase p{
             top: 9.5rem;
             left: 1rem;
-            font-size: 25px;
+            font-size: 26px;
             font-weight: 900;
         }
         
         #showcase h1 { 
             top: 11.5rem;
             left: 1rem;
-            font-size: 28px;
+            font-size: 32px;
             font-weight: 900;
         }
         
         #showcase .second-h1 {
             top: 11.5rem;
-            left: 5.9rem;
-            font-size: 28px;
+            left: 6.4rem;
+            font-size: 32px;
             font-weight: 900;
         }
     
@@ -331,7 +331,7 @@
     }
     
     .submit-btn input{
-        padding: .5rem 1rem;
+        padding: 1rem 1.5rem;
         font-size: 12px;
     }
     
